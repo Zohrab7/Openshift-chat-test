@@ -1,0 +1,152 @@
+.chat-container {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    padding-top: 0 !important;
+}
+
+.chat-container header {
+    position: absolute;
+    z-index: 3;
+    background: black;
+    height: 130px;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.chat-container footer {
+    bottom: 0;
+    position: absolute;
+    height: 170px;
+}
+
+.chat-input {
+    bottom: 0;
+    background: black;
+    height: 110px;
+    padding-left: 10%;
+}
+
+.chat-text {
+    z-index: 5;
+    position: relative;
+    width: 70%;
+    height: 80%;
+}
+
+.text-place {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: auto;
+    border: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 30px;
+    line-height: 46px;
+    color: rgb(255, 255, 255);
+}
+
+.text-place::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 30px;
+    line-height: 46px;
+    color: rgb(255, 255, 255);
+    font-family: "Karla", sans-serif;
+}
+
+.text-place::-moz-placeholder { /* Firefox 19+ */
+    font-size: 30px;
+    line-height: 46px;
+    color: rgb(255, 255, 255);
+    font-family: "Karla", sans-serif;
+}
+
+.text-place:-ms-input-placeholder { /* IE 10+ */
+    font-size: 30px;
+    line-height: 46px;
+    color: rgb(255, 255, 255);
+    font-family: "Karla", sans-serif;
+}
+
+.text-place:-moz-placeholder { /* Firefox 18- */
+    font-size: 30px;
+    line-height: 46px;
+    color: rgb(255, 255, 255);
+    font-family: "Karla", sans-serif;
+}
+
+.btn-area {
+    width: 90%;
+    height: 60px;
+}
+
+.btn-area button {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #ffbdb7;
+}
+
+.chat-container main {
+    height: 1094px;
+}
+
+.chat-container aside {
+    overflow-y: auto;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 20px !important;
+    position: absolute;
+    z-index: 3;
+    bottom: 180px;
+    width: 100%;
+    height: 1000px;
+}
+
+.triangle-conatiner2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    max-width: 100%;
+    height: 58%;
+}
+
+.bottom-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    max-width: 100%;
+    width: 100%;
+    height: 584px;
+    background-color: #000000;
+    opacity: 0.102;
+}
+
+.chatbox {
+    display: table;
+    padding: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.chat-msg {
+    text-align: justify;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.chat-usr {
+    font-size: 20px;
+    color: rgb(173, 128, 125);
+}
